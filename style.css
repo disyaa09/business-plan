@@ -1,93 +1,80 @@
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f2f2f2;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #f4f4f4;
 }
 
-/* Navbar */
-nav {
-    background: #0d6efd;
-    color: white;
-    padding: 15px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+header {
+background: #0d6efd;
+color: white;
+padding: 15px;
 }
 
-nav a, nav button {
-    color: white;
-    text-decoration: none;
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
+
+nav a {
+color: white;
+margin-right: 15px;
+text-decoration: none;
 }
 
-/* Hero */
+
 .hero {
-    background: white;
-    padding: 30px;
-    text-align: center;
+padding: 40px;
+background: #e9f2ff;
+text-align: center;
 }
 
-.hero img {
-    width: 60%;
-    border-radius: 10px;
-    margin-top: 20px;
+
+section {
+padding: 30px;
 }
 
-/* Content */
-.content {
-    background: white;
-    margin: 20px;
-    padding: 30px;
-    border-radius: 10px;
+
+.card {
+background: white;
+padding: 15px;
+margin: 10px 0;
+border-radius: 8px;
 }
 
-.content img {
-    width: 40%;
-    margin: 15px 0;
-    border-radius: 10px;
-}
 
-/* Footer */
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 15px;
+background: #333;
+color: white;
+text-align: center;
+padding: 10px;
 }
+
 
 /* Login */
 .login-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
 }
+
 
 .login-box {
-    background: white;
-    padding: 30px;
-    width: 300px;
-    text-align: center;
-    border-radius: 10px;
+background: white;
+padding: 30px;
+border-radius: 10px;
+width: 300px;
 }
+
 
 .login-box input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
+width: 100%;
+padding: 8px;
+margin: 8px 0;
 }
+
 
 .login-box button {
-    width: 100%;
-    padding: 10px;
-    background: #0d6efd;
-    color: white;
-    border: none;
-}
-
-#error {
-    color: red;
+width: 100%;
+padding: 10px;
+background: #0d6efd;
+color: white;
+border: none;
 }
