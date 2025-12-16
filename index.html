@@ -1,56 +1,71 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-<meta charset="UTF-8" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Digital Marketing</title>
-<link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+
 <header>
 <h1>Digital Marketing Agency</h1>
 <nav>
-<a href="index.html">Home</a>
-<a href="#services">Layanan</a>
-<a href="#about">Tentang</a>
-<a href="login.html">Login</a>
+<a href="#" onclick="showHome()">Home</a>
+<a href="#" onclick="showLogin()">Login</a>
 </nav>
 </header>
 
 
-<section class="hero">
+<!-- HOME -->
+<section id="home">
+<div class="hero">
 <h2>Tingkatkan Bisnis Anda dengan Digital Marketing</h2>
-<p>Kami membantu brand berkembang melalui strategi digital yang efektif dan modern.</p>
-</section>
+<p>Kami membantu brand berkembang melalui strategi digital modern.</p>
+</div>
 
 
-<section id="services">
+<section>
 <h2>Layanan Kami</h2>
 <div class="card">
-<h3>SEO (Search Engine Optimization)</h3>
-<p>Meningkatkan peringkat website Anda di mesin pencari seperti Google.</p>
+<h3>SEO</h3>
+<p>Meningkatkan peringkat website di mesin pencari.</p>
 </div>
 <div class="card">
 <h3>Social Media Marketing</h3>
-<p>Mengelola dan mengembangkan akun media sosial bisnis Anda.</p>
+<p>Mengelola dan mengembangkan media sosial bisnis.</p>
 </div>
 <div class="card">
 <h3>Content Marketing</h3>
-<p>Membuat konten berkualitas untuk menarik dan mempertahankan pelanggan.</p>
+<p>Membuat konten menarik dan berkualitas.</p>
 </div>
+</section>
 </section>
 
 
-<section id="about">
-<h2>Tentang Kami</h2>
-<p>
-Kami adalah tim digital marketing yang berfokus pada strategi berbasis data,
-kreativitas, dan teknologi untuk membantu bisnis berkembang secara online.
-</p>
+<!-- LOGIN -->
+<section id="login" style="display:none;">
+<div class="login-body">
+<div class="login-box">
+<h2>Login</h2>
+<form onsubmit="return loginUser()">
+<label>Email</label>
+<input type="email" id="email" required>
+
+
+<label>Password</label>
+<input type="password" id="password" required>
+
+
+<button type="submit">Login</button>
+</form>
+</div>
+</div>
 </section>
 
 
 <footer>
 <p>© 2025 Digital Marketing Agency</p>
 </footer>
-</body>
 </html>
